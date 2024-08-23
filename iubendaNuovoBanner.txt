@@ -1,5 +1,5 @@
 <?php if ( in_array(SF_DOMAIN, [SF_GROUP, 'citynews-citynews']) ) return; ?>
-<?php if ( Context::isUrl(['/user/*', '/signup/*']) ) return; ?>
+<?php if ( Context::isUrl(['/user/*', '/signup/*', '/signup/premium-contents-express/*']) ) return; ?>
 
 
 

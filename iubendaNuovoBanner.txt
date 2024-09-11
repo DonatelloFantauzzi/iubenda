@@ -91,7 +91,7 @@ _iub.csConfiguration = {"cookiePolicyInOtherWindow":true,"askConsentAtCookiePoli
             <div class="prompt-to-accept__button"><a href="/signup/premium-contents-express/NO_ADV/"><button>ATTIVA A 1€ AL MESE</button></a></div>
         
             <div>
-              <button class="button_back" onclick="window.__iub_cn__ && __iub_cn__.fBack()" >
+              <button class="button_back"  onclick="window.__iub_cn__ && __iub_cn__.fBack()" >
                 INDIETRO
               </button>        
             </div>

@@ -1,0 +1,161 @@
+<?php if ( in_array(SF_DOMAIN, [SF_GROUP, 'citynews-citynews']) ) return; ?>
+
+
+<script>~function(){var bIUBPurposes=false;window.__iub_purposes=function(mIUBPurpose){if(!bIUBPurposes||!mIUBPurpose||typeof mIUBPurpose==typeof{}){bIUBPurposes=true;for(var iCurrentIUBPurpose in window.__iub_purposes)delete window.__iub_purposes[iCurrentIUBPurpose]}if(mIUBPurpose)if(typeof mIUBPurpose==typeof{})for(var iCurrentIUBPurpose in mIUBPurpose){if(!mIUBPurpose[iCurrentIUBPurpose]||!+iCurrentIUBPurpose)continue;window.__iub_purposes[+iCurrentIUBPurpose]=true}else if(+mIUBPurpose)window.__iub_purposes[+mIUBPurpose]=
+true;try{var aIUBPurposes=Object.keys(window.__iub_purposes)||[];if(aIUBPurposes.length)localStorage.setItem("__iub_purposes",JSON.stringify(aIUBPurposes.map(function(iIUBPurpose){return+iIUBPurpose||0}))||"");else localStorage.removeItem("__iub_purposes");return aIUBPurposes}catch(_){}return null};{try{var aIUBPurposes=localStorage.getItem("__iub_purposes")||null;if(aIUBPurposes){aIUBPurposes=JSON.parse(aIUBPurposes)||null;if(aIUBPurposes&&typeof aIUBPurposes==typeof[]&&aIUBPurposes.constructor==
+[].constructor)for(var iCurrentIUBPurpose=0;iCurrentIUBPurpose<aIUBPurposes.length;++iCurrentIUBPurpose){if(!+aIUBPurposes[iCurrentIUBPurpose])continue;window.__iub_purposes[+aIUBPurposes[iCurrentIUBPurpose]]=true}}}catch(_){}}}();</script>
+<script type="text/plain" class="_iub_cs_activate" data-iub-purposes="1">window.__iub_purposes&&__iub_purposes(1);</script>
+<script type="text/plain" class="_iub_cs_activate" data-iub-purposes="2">window.__iub_purposes&&__iub_purposes(2);</script>
+<script type="text/plain" class="_iub_cs_activate" data-iub-purposes="3">window.__iub_purposes&&__iub_purposes(3);</script>
+<script type="text/plain" class="_iub_cs_activate" data-iub-purposes="4">window.__iub_purposes&&__iub_purposes(4);</script>
+<script type="text/plain" class="_iub_cs_activate" data-iub-purposes="5">window.__iub_purposes&&__iub_purposes(5);</script>
+
+
+${ css_export v7_cmp }$
+
+
+
+<script>
+
+
+var _iub = _iub || [];
+var elem = document.querySelector('[data-premium--no-ad]');
+
+if(elem){
+_iub.csConfiguration = {"cookiePolicyInOtherWindow":true,"askConsentAtCookiePolicyUpdate":true,"consentOnContinuedBrowsing":false,"perPurposeConsent":true,"purposes":"1,4,5","enableTcf":true,"googleAdditionalConsentMode":true,"askConsentIfCMPNotFound":true,"newConsentAtVendorListUpdate":0,"lang":"it","siteId":2299947,"cookiePolicyId":72889361,"cookiePolicyUrl":"https://citynews.it/privacy", "banner":{ "closeButtonDisplay":true,"closeButtonRejects":true,"slideDown":false,"acceptButtonDisplay":true,"customizeButtonDisplay":true,"acceptButtonColor":"#0073CE","acceptButtonCaptionColor":"white","customizeButtonColor":"transparent","customizeButtonCaptionColor":"#0073CE","rejectButtonColor":"#0073CE","rejectButtonCaptionColor":"white","position":"bottom","textColor":"#333","backgroundColor":"white","customizeButtonCaption":"Gestione Consensi","content":'<img width="150" height="41" src="https://www.citynews.it/images/cn-horizontal-simple.png" class="logo" alt="logo citynews"> <div id="iubenda-cs-title"></div><div id="iubenda-cs-paragraph"><p class="iub-p">Noi e %{total_number_of_ads_vendors} terze parti selezionate utilizziamo cookie o tecnologie simili come specificato nella <a href="https://citynews.it/privacy" class="iubenda-cs-cookie-policy-lnk" target="_blank" rel="noopener">cookie policy</a>.</p><p class="iub-p">Per  la pubblicità, noi e <a href="javascript:void(0)" class="iubenda-vendor-list-link">%{total_number_of_ads_vendors} terze parti selezionate</a>, potremmo <em> utilizzare dati di geolocalizzazione </em> e <em>fare una scansione  delle caratteristiche del dispositivo ai fini dell’identificazione</em>, al fine di trattare dati personali come i tuoi dati di utilizzo del sito, per le seguenti finalità: <em>annunci e contenuti personalizzati, valutazione degli annunci e del contenuto, osservazioni del pubblico e sviluppo di prodotti</em>.</p><p class="iub-p">Puoi liberamente prestare, rifiutare o revocare il tuo consenso, in qualsiasi momento, accedendo al pannello di <a href="javascript:void(0)" class="iubenda-cs-customize-btn">Gestione Consensi</a> o accedendo al <a href="javascript:void(0)" class="iubenda-advertising-preferences-link">pannello delle preferenze pubblicitarie</a> per le terze parti aderenti al TCF di IAB. La chiusura del banner con la X, imposta la navigazione con i soli cookie tecnici.</p></div>'}};
+}
+
+else{
+_iub.csConfiguration = {"cookiePolicyInOtherWindow":true,"askConsentAtCookiePolicyUpdate":true,"consentOnContinuedBrowsing":false,"perPurposeConsent":true,"purposes":"1,4,5","enableTcf":true,"googleAdditionalConsentMode":true,"askConsentIfCMPNotFound":true,"newConsentAtVendorListUpdate":0,"lang":"it","siteId":2299947,"cookiePolicyId":72889361,"cookiePolicyUrl":"https://citynews.it/privacy", "banner":{ "rejectButtonCaption":"Rifiuta e abbonati","acceptButtonDisplay":true,"rejectButtonDisplay": true,"acceptButtonColor":"#0073CE","acceptButtonCaptionColor":"white","rejectButtonColor":"#0073CE","rejectButtonCaptionColor":"white","position":"bottom","textColor":"#333","customizeButtonDisplay":false,"backgroundColor":"white","content":'<img width="150" height="41" src="https://www.citynews.it/images/cn-horizontal-simple.png" alt="logo citynews" class="logo"> <div id="iubenda-cs-title"></div><div id="iubenda-cs-paragraph"><p class="iub-p"><strong>Citynews si dedica ogni giorno ad offrirti, grazie alla sua capillare presenza sul territorio, notizie gratuite e di alta qualità attraverso il lavoro di centinaia di professionisti tra giornalisti, designer, tecnici.</strong><br>Per assicurare un´informazione libera e accessibile, facciamo uso di pubblicità mirata agli interessi dei nostri lettori.<br>Senza il supporto della pubblicità, l´accesso ai nostri servizi richiederebbe l´acquisto di abbonamenti con costi crescenti. Per questo chiediamo il tuo consenso all´utilizzo di cookie o tecnologie simili anche da parte di terzi selezionati per finalità diverse da quelle strettamente necessarie, come specificato nella <a href="https://citynews.it/privacy" class="iubenda-cs-cookie-policy-lnk" target="_blank" rel="noopener">Cookie policy</a>.</p></div><div class="iubenda-cs-footer"><div id="subscribe">Sei già abbonato? <a href="/user/login/">ACCEDI</a></div>Noi e <a href="javascript:void(0)" class="iubenda-vendor-list-link">%{total_number_of_ads_vendors} terze parti selezionate</a>, potremmo utilizzare dati di geolocalizzazione precisi e identificazione attraverso la scansione del dispositivo, al fine di archiviare e/o accedere a informazioni su un dispositivo e trattare dati personali come quelli relativi all´utilizzo del sito, per le seguenti finalità: pubblicità e contenuti personalizzati, misurazione delle prestazioni dei contenuti e degli annunci, ricerche sul pubblico, sviluppo di servizi. Puoi liberamente prestare, rifiutare o revocare il tuo consenso, in qualsiasi momento, accedendo al pannello di <a href="javascript:void(0)" class="iubenda-cs-customize-btn">Gestione Consensi</a> o accedendo al pannello delle <a href="javascript:void(0)" class="iubenda-advertising-preferences-link">preferenze pubblicitarie</a> per le terze parti aderenti al TCF di IAB.</div>'},
+  "callback": {
+    "onReady": function() {
+
+        if(window._iub && _iub.cs && _iub.cs.api && _iub.cs.api.isPreferenceExpressed() && !_iub.cs.api.isConsentGiven()){
+           __iub_cn__.fBack();
+        }; 
+        
+        
+        const customizeButton = document.querySelector('.iubenda-cs-customize-btn');
+        const bannerRationale = document.querySelector('.iubenda-cs-rationale');
+        const bannerFooter = document.querySelector('.iubenda-cs-footer');
+        
+        const advLink = document.querySelector('.iubenda-advertising-preferences-link');
+        advLink.innerHTML = 'finalità pubblicitarie';
+        
+        if(bannerFooter)
+          bannerRationale.append(bannerFooter);
+
+      },
+      "onPreferenceExpressed": function(oPreferences) {
+
+        oPreferences&&oPreferences.purposes&&window.__iub_purposes&&__iub_purposes(oPreferences.purposes)
+
+              __tcfapi('getTCData', 2, function(tcData) 
+              {
+
+                    var allTcfPurposesAccepted = Object.keys(tcData.purpose.consents).every(function(purposeId) {
+                      return tcData.purpose.consents[purposeId] === true;
+                    });
+                    
+                    
+                    var isCpFullyAccepted = _iub.cs.api.isConsentGiven();
+                    
+                    
+                    if (allTcfPurposesAccepted && isCpFullyAccepted) {
+                      document.documentElement.classList.remove('show-prompt-to-accept');
+                    } else {
+                      document.documentElement.classList.add('show-prompt-to-accept');
+                    }
+              });
+      },     
+
+    },
+};
+}
+
+</script>
+
+<div class="prompt-to-accept">
+    <div class="prompt-to-accept__wrapper">
+      <div class="prompt-to-accept__container">
+        <img width="150" height="41" src="https://www.citynews.it/images/cn-horizontal-simple.png" alt="logo Citynews" class="logo">
+
+        <div class="prompt-to-accept__buy block">
+          <div class="prompt-to-accept__content">
+            <h3>Attiva l’offerta Basic</h3>
+            <p class="iub-p"> Questo abbonamento ti consente di navigare senza interruzioni pubblicitarie su <?= esc_entities( Context::get("brand") ) ?> da web e mobile <span class="prompt-to-accept__content__span-plus">su tutti i contenuti non dedicati all’<a href="/signup/premium-products/">offerta Plus</a></span>.</p>
+          </div>
+          <div class="prompt-to-accept__buttons">
+            <div class="prompt-to-accept__button"><a href="/signup/premium-contents-express/NO_ADV/"><button>ATTIVA A 1€ AL MESE</button></a></div>
+        
+            <div>
+              <button class="button_back" onclick="window.__iub_cn__ && __iub_cn__.fBack()" >
+                INDIETRO
+              </button>        
+            </div>
+        
+          </div>
+      
+          <div class="prompt-to-accept__sign-in"><span>Sei già abbonato?</span><a href="/user/login/">ACCEDI</a></div>
+        </div>
+        
+        
+        
+        <div class="prompt-to-accept__information-privacy none">
+          <div class="prompt-to-accept__content">
+            
+           <p class="iub-p"><strong>Citynews si dedica ogni giorno ad offrirti, grazie alla sua capillare presenza sul territorio, notizie gratuite e di alta qualità attraverso il lavoro di centinaia di professionisti tra giornalisti, designer, tecnici.</strong><br>Per assicurare un´informazione libera e accessibile, facciamo uso di pubblicità mirata agli interessi dei nostri lettori.<br>Senza il supporto della pubblicità, l´accesso ai nostri servizi richiederebbe l´acquisto di abbonamenti con costi crescenti. Per questo chiediamo il tuo consenso all´utilizzo di cookie o tecnologie simili anche da parte di terzi selezionati per finalità diverse da quelle strettamente necessarie, come specificato nella <a href="https://citynews.it/privacy" class="iubenda-cs-cookie-policy-lnk" target="_blank" rel="noopener">Cookie policy</a>.</p>
+          </div>
+          <div class="prompt-to-accept__buttons">
+            <div class="prompt-to-accept__button"><button  onclick="window.__iub_cn__ && __iub_cn__.fReject()">RIFIUTA E ABBONATI </button></div>
+        
+            <div class="prompt-to-accept__button"><button  onclick="_iub.cs.api.acceptAll()">ACCETTA </button></div>
+        
+          </div>
+      
+          <div class="prompt-to-accept__sign-in"><span>Sei già abbonato?</span><a href="/user/login/">ACCEDI</a></div>
+          <p class="prompt-to-accept__footer">Noi e <a href="javascript:void(0)" class="iubenda-vendor-list-link"> terze parti selezionate</a>, potremmo utilizzare dati di geolocalizzazione precisi e identificazione attraverso la scansione del dispositivo, al fine di archiviare e/o accedere a informazioni su un dispositivo e trattare dati personali come quelli relativi all´utilizzo del sito, per le seguenti finalità: pubblicità e contenuti personalizzati, misurazione delle prestazioni dei contenuti e degli annunci, ricerche sul pubblico, sviluppo di servizi. Puoi liberamente prestare, rifiutare o revocare il tuo consenso, in qualsiasi momento, accedendo al pannello di Gestione Privacy o accedendo al pannello delle <a href="javascript:void(0)" class="iubenda-advertising-preferences-link">preferenze pubblicitarie</a> per le terze parti aderenti al TCF di IAB.</p>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+
+
+<script>if(window._iub&&_iub.csConfiguration){_iub.csConfiguration.i18n={it:{banner:{title:"Informativa",paragraph_1:"Questo sito o gli strumenti terzi da questo utilizzati si avvalgono di cookie necessari al funzionamento ed utili alle finalit\u00e0 illustrate nella cookie policy. Se vuoi saperne di pi\u00f9 o negare il consenso a tutti o ad alcuni cookie, consulta la %{cookie_policy_link}.",paragraph_2:"Chiudendo questo banner, scorrendo questa pagina, cliccando su un link o proseguendo la navigazione in altra maniera, acconsenti all\u2019uso dei cookie.",dynamic:{paragraph_1:'Questo sito o gli strumenti di terze parti in esso integrati trattano dati personali[if not gdprApplies and ccpaApplies].[/if][if gdprApplies] (es. dati di navigazione o indirizzi IP) e fanno uso di cookie o altri identificatori necessari per il funzionamento e per il raggiungimento delle finalit\u00e0 descritte nella cookie policy[if enableCMP], incluse le seguenti finalit\u00e0 relative alla pubblicit\u00e0 utilizzate dal Titolare e da %{vendor_list_link}: Conservazione e accesso alle informazioni; Personalizzazione; Selezione degli annunci, distribuzione, reporting; Selezione dei contenuti, distribuzione, reporting; Misurazione[/if]. [if not banner.customizeButtonDisplay]Per saperne di pi\u00f9, consulta la %{cookie_policy_link}. [/if][if enableCMP] Puoi liberamente fornire, rifiutare o revocare il tuo consenso senza incorrere in limitazioni sostanziali e modificare le tue preferenze relative agli annunci pubblicitari in qualsiasi momento accedendo al %{advertising_preferences_link}.[/if][/if][if ccpaApplies]<br />In caso di vendita di informazioni personali, puoi fare opt-out utilizzando il link: "%{do_not_sell}".<br />Per saperne di pi\u00f9 sulle categorie di dati personali raccolti e sulle finalit\u00e0 per le quali tali dati saranno utilizzati, si prega di fare riferimento alla nostra %{privacy_policy}.[/if]',
+paragraph_2:"Dichiari di accettare l\u2019utilizzo di cookie o altri identificatori chiudendo o nascondendo questa informativa",by_scrolling:"proseguendo la navigazione di questa pagina",by_clicking_on_links:"cliccando un link o un pulsante",by_browsing:"continuando a navigare in altro modo",or:"o"},cookie_policy_caption:"cookie policy",vendor_list_caption:"terze parti",advertising_preferences_caption:"pannello delle preferenze pubblicitarie",do_not_sell_caption:"Non vendere le mie informazioni personali",
+privacy_policy_caption:"privacy policy",accept_button_caption:"Accetta",reject_button_caption:"Rifiuta"},modal:{save_and_go_back:"Salva e torna indietro",back:"Indietro",see_full_cookie_policy:"Visualizza Cookie Policy completa",cookie_policy:"Cookie Policy"},footer:{message:"Proseguendo la navigazione o chiudendo questa finestra in altro modo, accetti le attuali impostazioni relative ai cookie.",btnCaption:"Salva e continua"},cmp:{show_tracking_button:"Personalizza tracciamento pubblicitario",
+hide_tracking_button:"Salva e torna alla cookie policy",widget_title:"Impostazioni di tracciamento della pubblicit\u00e0",widget_intro:"I servizi pubblicitari elencati di seguito consentono all'Utente di impostare le preferenze di tracciamento della pubblicit\u00e0.<br />Attivando una finalit\u00e0 pubblicitaria o singoli servizi, l'Utente acconsente a tale trattamento dei propri Dati. Gli Utenti possono modificare queste scelte in qualsiasi momento.<br /><br />Alcuni servizi tra quelli elencati di seguito, se specificato, potrebbero non richiedere il consenso dell'Utente per il trattamento dei suoi Dati Personali in quanto utilizzano un interesse legittimo come base legale. Gli Utenti hanno il diritto di opporsi a tale trattamento e possono esercitare tale diritto visitando le privacy policy dei rispettivi servizi.",
+widget_iab_title:"Pubblicit\u00e0 personalizzata dei servizi aderenti al <a href='https://iabeurope.eu/transparency-consent-framework/'>Transparency and Consent Framework IAB</a>",widget_features_intro:"Per perseguire una o pi\u00f9 di queste finalit\u00e0, i servizi di terze parti possono inoltre fare uso delle seguenti caratteristiche:",widget_other_providers:"Altri fornitori",activate_all_purposes_button:"Accetta tutto",deactivate_all_purposes_button:"Rifiuta tutto",vendors_section_title:"Gestione delle preferenze per ogni servizio pubblicitario",
+purposes_label:"Finalit\u00e0:",legit_purposes_label:"Finalit\u00e0 (interesse legittimo):",features_label:"Caratteristiche:",privacy_policy:"Privacy Policy",purposes:{1:{name:"Conservazione e accesso alle informazioni",description:"La conservazione di informazioni o l\u2019accesso a informazioni gi\u00e0 conservate sul dispositivo dell\u2019Utente come gli identificativi pubblicitari, gli identificativi del dispositivo, i cookie o tecnologie simili."},2:{name:"Personalizzazione",description:"La raccolta e il trattamento di informazioni sull\u2019utilizzo da parte dell\u2019Utente di questa Applicazione per la successiva personalizzazione della pubblicit\u00e0 e/o dei contenuti per esso in altri contesti, ad esempio in altri siti web o app, nel tempo. In genere, i contenuti del sito o dell\u2019app sono utilizzati per dedurre gli interessi dell\u2019Utente, in base ai quali informare le selezioni future di pubblicit\u00e0 e/o di contenuti."},
+3:{name:"Selezione degli annunci, distribuzione, reporting",description:"La raccolta di informazioni e la combinazione con informazioni precedentemente raccolte, per selezionare e distribuire annunci pubblicitari per l\u2019Utente e per misurare la distribuzione e l\u2019efficacia di tali annunci pubblicitari. Ci\u00f2 include l\u2019utilizzo delle informazioni raccolte in precedenza sugli interessi dell\u2019Utente per la selezione degli annunci, il trattamento dei dati riguardanti gli annunci che sono stati visualizzati, la frequenza con cui sono stati visualizzati, quando e dove sono stati visualizzati e se \u00e8 stata intrapresa una qualsiasi azione correlata all\u2019annuncio, incluso ad esempio facendo clic sull\u2019annuncio o effettuando un acquisto. Questo non comprende la Personalizzazione, che \u00e8 la raccolta e il trattamento di informazioni sull\u2019utilizzo da parte dell\u2019Utente di questa Applicazione per la successiva personalizzazione della pubblicit\u00e0 e/o dei contenuti per esso in altri contesti, ad esempio in altri siti web o app, nel tempo."},
+4:{name:"Selezione dei contenuti, distribuzione, reporting",description:"La raccolta di informazioni e la combinazione con informazioni precedentemente raccolte, per selezionare e distribuire contenuti per l\u2019Utente e per misurare la distribuzione e l\u2019efficacia di tali contenuti. Ci\u00f2 include l\u2019utilizzo delle informazioni raccolte in precedenza sugli interessi dell\u2019Utente per selezionare i contenuti, il trattamento dei dati relativi ai contenuti che sono stati visualizzati, la frequenza con cui e per quanto tempo sono stati visualizzati, quando e dove sono stati visualizzati e se l\u2019Utente ha intrapreso una qualsiasi azione correlata ai contenuti, incluso ad esempio facendo clic sui contenuti. Questo non comprende la Personalizzazione, che \u00e8 la raccolta e il trattamento di informazioni sull\u2019utilizzo da parte dell\u2019Utente di questa Applicazione per la successiva personalizzazione dei contenuti e/o della pubblicit\u00e0 per esso in altri contesti, ad esempio in altri siti web o app, nel tempo."},
+5:{name:"Misurazione",description:"La raccolta di informazioni sull\u2019utilizzo dei contenuti da parte dell\u2019Utente e la loro combinazione con informazioni raccolte in precedenza, utilizzate per misurare, comprendere e stilare un report sull\u2019utilizzo dei contenuti da parte dell\u2019Utente. Ci\u00f2 non comprende la Personalizzazione, la raccolta di informazioni sull\u2019utilizzo da parte dell\u2019Utente di questa Applicazione per la successiva personalizzazione dei contenuti e/o della pubblicit\u00e0 per esso in altri contesti, ad esempio in altri siti web o app, nel tempo."},
+googleAdsPersonalized:{name:"Pubblicit\u00e0 personalizzata di Google e dei suoi partner",description:"Google e i suoi partner fornitori di tecnologia pubblicitaria utilizzano i Cookie o altri Identificatori per scopi di personalizzazione e misurazione. Gli Utenti possono personalizzare le loro impostazioni di consenso sia per Google che per i suoi partner. Per saperne di pi\u00f9, fare riferimento alla <a href='https://support.google.com/admanager/answer/9012903?hl=it'>privacy policy di ciascun servizio</a>."}},
+features:{1:{name:"Confronto dei dati off-line",description:"La combinazione dei dati provenienti da fonti offline inizialmente raccolte in altri contesti con dati raccolti on-line a supporto di uno o pi\u00f9 finalit\u00e0."},2:{name:"Collegamento dei dispositivi",description:"Trattamento dei dati per collegare pi\u00f9 dispositivi appartenenti allo stesso Utente a supporto di una o pi\u00f9 finalit\u00e0."},3:{name:"Precisione dei dati di ubicazione geografica",description:"Raccolta e supporto di dati relativi all\u2019ubicazione geografica specifici a sostegno di uno o pi\u00f9 finalit\u00e0."}}},
+per_purpose:{widget_title:"Impostazioni di consenso",widget_intro:'Il seguente pannello ti permette di personalizzare le impostazioni relative al consenso all\u2019utilizzo di cookie o di qualsiasi altra tecnologia di identificazione impiegata direttamente da noi o da terzi. Per saperne di pi\u00f9, controlla la descrizione di ogni categoria e la <button style="cursor: pointer; text-decoration: underline !important;" class="open-cp">cookie policy</button>. Potrai rivedere e modificare le impostazioni in qualsiasi momento.',
+see_description:"Mostra descrizione",see_description_customize:"Mostra descrizione e personalizza",hide_description:"Nascondi descrizione",approve_all:"Accetta tutto",reject_all:"Rifiuta tutto",adopts_tcf:"-",general_advertising_services:"Servizi di Targeting e Pubblicit\u00e0 Citynews",tcf_adhering_services:"Servizi che aderiscono al Transparency and Consent Framework di IAB",tcf_adhering_services_description:'Questi servizi aderiscono al <a href="https://iabeurope.eu/transparency-consent-framework/">IAB Transparency and Consent Framework</a> (TCF). Il TCF \u00e8 un\u2019iniziativa di imprese del settore della pubblicit\u00e0 digitale che promuove pratiche responsabili in tema di privacy, fornendo agli Utenti maggior trasparenza e controllo delle preferenze di tracciamento della pubblicit\u00e0.',
+customize_advertising_tracking:"Personalizza tracciamento pubblicitario",purposes:{1:{name:"Strettamente necessari",description:"Questi cookie o altri identificatori sono strettamente necessari per garantire il funzionamento e la fornitura del servizio che ci hai richiesto e, pertanto, non richiedono il tuo consenso."},2:{name:"Interazioni e funzionalit\u00e0 semplici",description:"Questi cookie o altri identificatori abilitano semplici interazioni e funzionalit\u00e0 che ti permettono di accedere a determinate risorse del nostro servizio e consentono di comunicare pi\u00f9 facilmente con noi."},
+3:{name:"Miglioramento dell'esperienza",description:"Questi cookie o altri identificatori ci aiutano a fornire una user experience personalizzata migliorando la qualit\u00e0 della gestione delle impostazioni e consentendo l'interazione con network e piattaforme esterne."},4:{name:"Misurazione",description:"Questi cookie o altri identificatori ci permettono di misurare il traffico e analizzare il tuo comportamento con l'obiettivo di migliorare il nostro servizio."},5:{name:"Targeting e Pubblicit\u00e0",
+description:"Questi cookie o altri identificatori ci consentono di fornirti contenuti commerciali personalizzati in base al tuo comportamento e di gestire, fornire e tenere traccia degli annunci pubblicitari."},googleAdsPersonalized:{name:"Pubblicit\u00e0 personalizzata di Google e dei suoi partner",description:"Google e i suoi partner fornitori di tecnologia pubblicitaria utilizzano cookie o altri identificatori per scopi di personalizzazione e misurazione. Puoi personalizzare le tue impostazioni di consenso sia per Google sia per i suoi partner. Per saperne di pi\u00f9, fai riferimento alla <a href='https://support.google.com/admanager/answer/9012903?hl=it'>privacy policy di ciascun servizio</a>."}}},
+ccpa:{opt_out_prompt:"Sei sicuro di voler fare opt-out?",opt_out_cancel:"Cancella",opt_out_confirm:"Conferma"}}}};</script>
+
+
+<style>.o-wrapper.iub--active{-ms-filter:blur(6px) grayscale(0.75);-moz-filter:blur(6px) grayscale(0.75);-webkit-filter:blur(6px) grayscale(0.75);filter:blur(6px) grayscale(0.75);-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;cursor:not-allowed;pointer-events:none}</style>
+<script>~function(){if(!document.querySelector)return;if(!window._iub||!_iub.csConfiguration)return;_iub.csConfiguration.callback=_iub.csConfiguration.callback||{};_iub.csConfiguration.callback.onBannerShown=_iub.csConfiguration.callback.onCookiePolicyShown=function(){var oWrapper=document.querySelector(".o-wrapper");oWrapper&&oWrapper.classList&&oWrapper.classList.add("iub--active")};_iub.csConfiguration.callback.onBannerClosed=function(){var oWrapper=document.querySelector(".o-wrapper");oWrapper&&oWrapper.classList&&oWrapper.classList.remove("iub--active")}}();</script>
+
+
+<script>~function(){try{window._iub&&_iub.cs&&_iub.cs.api&&_iub.cs.api.activateSnippets()}catch(_){}setTimeout(arguments.callee,2E3)}();</script>
+
+
+<script>!function(n){var r={};function o(e){if(r[e])return r[e].exports;var t=r[e]={i:e,l:!1,exports:{}};return n[e].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=n,o.c=r,o.d=function(e,t,n){o.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},o.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},o.t=function(t,e){if(1&e&&(t=o(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var r in t)o.d(n,r,function(e){return t[e]}.bind(null,r));return n},o.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return o.d(t,"a",t),t},o.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},o.p="",o(o.s=388)}({383:function(e,t,n){var r=n(384);e.exports=function(){r();var e=void 0===window._iub?window._iub={}:window._iub,t=e.cmp||(e.cmp={});(t.VERSION||(t.VERSION={})).stubV2="0.1.5"}},384:function(e,t,n){"use strict";e.exports=function(){for(var e,o="__tcfapiLocator",a=[],i=window;i;){try{if(i.frames[o]){e=i;break}}catch(e){}if(i===window.top)break;i=i.parent}e||(function e(){var t,n=i.document,r=!!i.frames[o];return r||(n.body?((t=n.createElement("iframe")).style.cssText="display:none",t.name=o,n.body.appendChild(t)):setTimeout(e,5)),!r}(),i.__tcfapi=function(){for(var e,t,n=arguments.length,r=new Array(n),o=0;o<n;o++)r[o]=arguments[o];if(!r.length)return a;"setGdprApplies"===r[0]?3<r.length&&2===parseInt(r[1],10)&&"boolean"==typeof r[3]&&(e=r[3],"function"==typeof r[2]&&r[2]("set",!0)):"ping"===r[0]?(t={gdprApplies:e,cmpLoaded:!1,cmpStatus:"stub"},"function"==typeof r[2]&&r[2](t)):a.push(r)},i.addEventListener("message",function(r){var o="string"==typeof r.data,e={};try{e=o?JSON.parse(r.data):r.data}catch(r){}var a=e.__tcfapiCall;a&&window.__tcfapi(a.command,a.version,function(e,t){var n={__tcfapiReturn:{returnValue:e,success:t,callId:a.callId}};o&&(n=JSON.stringify(n)),r&&r.source&&r.source.postMessage&&r.source.postMessage(n,"*")},a.parameter)},!1))}},388:function(e,t,n){n(383)()}});</script>
+
+
+<script>~(function (i, u, b) {if (!document.querySelector) return;if (i.__iub_cn__) return;var __iub_cn__ = function () {this.oInformationPrivacy = document.querySelector(".prompt-to-accept__information-privacy");this.oGoBack = document.querySelector(".prompt-to-accept__buy");this.oPromptToAccept = document.querySelector(".prompt-to-accept");var oInformationPrivacy = this.oInformationPrivacy;var oGoBack = this.oGoBack;var oPromptToAccept = this.oPromptToAccept;this.fReject = function () {if (i._iub && _iub.cs && _iub.cs.api && _iub.cs.api.isPreferenceExpressed() && !_iub.cs.api.isConsentGiven()) {oInformationPrivacy.classList.remove("block");oInformationPrivacy.classList.add("none");oGoBack.classList.remove("none");oGoBack.classList.add("block");} else {return;}};this.fBack = function () {if (i._iub && _iub.cs && _iub.cs.api && _iub.cs.api.isPreferenceExpressed() && !_iub.cs.api.isConsentGiven()) {oInformationPrivacy.classList.remove("none");oInformationPrivacy.classList.add("block");oGoBack.classList.add("none");oGoBack.classList.remove("block");} else {return;}};};i.__iub_cn__ = new __iub_cn__();}(window));
+</script>
+
+
+<!-- <script src="//cdn.iubenda.com/cs/iubenda_cs.js" async></script> -->
+<script>~function(){if(!document.querySelector||!document.querySelectorAll)return null;if(document.querySelector("[data-premium--no-ad]")||/^\/(user|signup)\//.test(location.pathname||"")){var bOnReady=false;var fOnReady=function(){{if(bOnReady)return;bOnReady=true}document.querySelectorAll('script[type="text/plain"]._iub_cs_activate').forEach(function(oScript){{var iPurpose=+(oScript.getAttribute("data-iub-purposes")||"").trim()||0;if(iPurpose&&iPurpose!=1)return}var oScriptNew=document.createElement("script");
+try{oScriptNew.appendChild(document.createTextNode(oScript.text||oScript.textContent||oScript.innerHTML||""))}catch(_){oScriptNew.text=oScript.text||oScript.textContent||oScript.innerHTML||""}try{oScript.parentNode.replaceChild(oScriptNew,oScript)}catch(_){}})};document.addEventListener("DOMContentLoaded",fOnReady);window.addEventListener("load",fOnReady);if(document.readyState=="complete"||document.readyState=="interactive")setTimeout(fOnReady,1);return true}{var oScript=document.createElement("script");
+oScript.async=true;oScript.src="https://cdn.iubenda.com/cs/iubenda_cs.js";if(document.head)document.head.appendChild(oScript);else if(document.body)document.body.appendChild(oScript);else{var oScriptLast=document.getElementsByTagName("script");oScriptLast=oScriptLast.length?oScriptLast[oScriptLast.length-1]:null;if(oScriptLast&&oScriptLast.parentNode)oScriptLast.parentNode.appendChild(oScript,oScriptLast)}}return false}();</script>
